@@ -75,7 +75,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- ElevenLabs API setup ---
-API_KEY = "sk_e52d274257ddb7decd0be211483d5444e38e3fcd6d1a418d"
+API_KEY = "your api key!!!"
 client = ElevenLabs(api_key=API_KEY)
 
 # --- Title and Description ---
@@ -146,3 +146,4 @@ if st.button("🔊 Generate & Play"):
 
 # Footer
 st.markdown('<div class="footer">© 2025 AI Text to Speech Project by AK | Kaung Kaung | Kaung Si Thu</div>', unsafe_allow_html=True)
+
